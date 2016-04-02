@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:beanyong="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.arcmenubymyself.beanyong.arcmenubymyself.ArcMenu
+        android:id="@+id/id_arcMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        beanyong:radius="150dp">
+
+        <RelativeLayout
+            android:id="@+id/id_rootMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/composer_button" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/composer_icn_plus" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/id_camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_camera" />
+
+        <ImageView
+            android:id="@+id/id_music"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_music" />
+
+        <ImageView
+            android:id="@+id/id_place"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_place" />
+
+        <ImageView
+            android:id="@+id/id_sleep"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_sleep" />
+
+        <ImageView
+            android:id="@+id/id_thought"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_thought" />
+
+        <ImageView
+            android:id="@+id/id_with"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/composer_with" />
+
+    </com.arcmenubymyself.beanyong.arcmenubymyself.ArcMenu>
+
+</RelativeLayout>
